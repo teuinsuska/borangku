@@ -14,25 +14,7 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
-          server: 203.161.184.89
+          server: ${{ secrets.server }}
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
-          server-dir: /borangku/
-
-          # port: # optional
-          # # protocol to deploy with - ftp, ftps, or ftps-legacy
-          # protocol: # optional
-          # # Folder to upload from, must end with trailing slash /
-          # local-dir: # optional
-          # # Path to upload to on the server. Must end with trailing slash /
-          # state-name: # optional
-          # # Prints which modifications will be made with current config options, but doesnt actually make any changes
-          # dry-run: # optional
-          # # Deletes ALL contents of server-dir, even items in excluded with exclude argument
-          # dangerous-clean-slate: # optional
-          # # An array of glob patterns, these files will not be included in the publish/delete process
-          # exclude: # optional
-          # # How verbose should the information be - minimal, standard, or verbose
-          # log-level: # optional
-          # # strict or loose
-          # security: # optional
+          server-dir: ${{ secrets.ftp_dir}}
