@@ -19,7 +19,7 @@
   <header>
     <div class="container">
       <div class="header-left">
-        <img class="logo" src="<?= base_url('assets') ?>/img/logo.png">
+        <img class="logo" src="<?= base_url('assets') ?>/img/logo-head.png">
       </div>
       <!-- Tambahkan menu ikon dibaris bawah -->
       <span class="fa fa-bars menu-icon"></span>
@@ -96,8 +96,8 @@
   </div>
   <footer>
     <div class="container">
-      <img src="<?= base_url('assets') ?>/img/footer_logo.png">
-      <p>Tracking Secure System.</p>
+      <img src="<?= base_url('assets') ?>/img/logo-foot.png">
+      <p>Form Kelengkapan KP/TA</p>
     </div>
   </footer>
 </body>
