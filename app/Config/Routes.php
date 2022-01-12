@@ -33,6 +33,18 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 
+// Landing page
+$routes->get('/guide', 'Gen::guide');
+$routes->get('/gen', 'Gen::index');
+$routes->get('/kp', 'Gen::kp');
+$routes->get('/ta', 'Gen::ta');
+// Auth
+$routes->get('/login', 'Auth::index');
+$routes->post('/login', 'Auth::login');
+$routes->get('/logout', 'Auth::logout');
+// Dashbooard
+$routes->get('/user', 'Dashboard::user', ['filter' => 'auth']);
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
