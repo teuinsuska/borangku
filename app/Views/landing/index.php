@@ -47,36 +47,36 @@
   <div class="lesson-wrapper">
     <div class="container">
       <div class="heading">
-        <h2>Cari tau di mana kendaraan anda berada!</h2>
+        <h2>Permudah pembuatatan borang kelengkapan anda!</h2>
       </div>
       <div class="lessons">
         <div class="lesson">
           <div class="lesson-icon">
-            <img src="<?= base_url('assets') ?>/img/html.png">
-            <p>Tracking</p>
+            <img src="<?= base_url('assets') ?>/img/jQuery.png">
+            <p>Generate</p>
           </div>
-          <p class="txt-contents">Lacak keberadaan kendaraan anda melalui koordinat yang akan diarahkan dengan Google Map.</p>
+          <p class="txt-contents">Buat Kelengkapan borang anda secara otomatis.</p>
         </div>
         <div class="lesson">
           <div class="lesson-icon">
-            <img src="<?= base_url('assets') ?>/img/jQuery.png">
-            <p>Monitoring</p>
+            <img src="<?= base_url('assets') ?>/img/html.png">
+            <p>Bot Support</p>
           </div>
-          <p class="txt-contents">Pantau kondisi dan keadaan kendaraan anda hanya dengan internet.</p>
+          <p class="txt-contents">Terima Hasilnya melalui Bot Whatsapp kami.</p>
         </div>
         <div class="lesson">
           <div class="lesson-icon">
             <img src="<?= base_url('assets') ?>/img/ruby.png">
-            <p>Control</p>
+            <p>E-Mail</p>
           </div>
-          <p class="txt-contents">Menonaktifkan kendaraan secara langsung dari jarak jauh hanya dengan koneksi internet.</p>
+          <p class="txt-contents">Anda juga dapat menerima borang melalui email yag telah didaftarkan.</p>
         </div>
         <div class="lesson">
           <div class="lesson-icon">
             <img src="<?= base_url('assets') ?>/img/php.png">
-            <p>Live Report</p>
+            <p>Support</p>
           </div>
-          <p class="txt-contents">Dapatkan Notifikasi secara langsung jika terdapat perubahan/pergerakan dari kendaraan anda secara langsung.</p>
+          <p class="txt-contents">Dapatkan bantuan terkait perosedur pembuatan borang anda.</p>
         </div>
         <div class="clear"></div>
       </div>
@@ -98,6 +98,7 @@
     <div class="container">
       <img src="<?= base_url('assets') ?>/img/logo-foot.png">
       <p>Form Kelengkapan KP/TA</p>
+      <p><i>Copyleft of</i> KAnggara75<i class="fa fa-copyright fa-flip-horizontal" aria-hidden="true"></i>| <?= date(' M Y'); ?></p>
     </div>
   </footer>
 </body>
