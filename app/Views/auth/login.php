@@ -17,12 +17,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
   <!-- Custom styles for this template-->
+  <link href="<?= base_url('assets') ?>/css/auth.css" rel="stylesheet">
   <link href="<?= base_url('assets') ?>/css/sb-admin-2.min.css" rel="stylesheet">
 </head>
 
 <body>
 
-  <body class="bg-gradient-primary">
+  <body class="bg-color">
     <div class="container">
       <!-- Outer Row -->
       <div class="row justify-content-center">
@@ -52,7 +53,7 @@
                       <label class="custom-control-label" for="customCheck">Remember Me</label>
                     </div>
                   </div>
-                  <button type="submit" class="btn btn-primary btn-user btn-block">Login</button>
+                  <button type="submit" class="btn btn-success btn-user btn-block">Login</button>
                 </form>
               </div>
             </div>
