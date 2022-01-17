@@ -31,6 +31,7 @@ class Dashboard extends Controller
       ];
     return view('user/index', $data);
   }
+
   public function user()
   {
     $session = session();
@@ -54,6 +55,10 @@ class Dashboard extends Controller
         'status' => $status,
         'nim' => $nim,
       ];
-    return view('user/user', $data);
+    echo view('template/head', $data);
+    echo view('template/sidebar', $data);
+    echo view('template/topbar', $data);
+    echo view('user/user', $data);
+    echo view('template/foot', $data);
   }
 }
