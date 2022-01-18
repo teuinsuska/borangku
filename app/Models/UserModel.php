@@ -6,6 +6,6 @@ use CodeIgniter\Model;
 
 class UserModel extends Model
 {
-  protected $table = 'user';
+  protected $table = 'mahasiswa';
   protected $allowedFields = ['nim', 'nama', 'email', 'hp', 'status', 'kp', 'ta'];
 }
