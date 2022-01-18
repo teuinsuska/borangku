@@ -119,7 +119,8 @@ nb-configuration.xml
 *.sublime-project
 .phpintel
 /api/
-
+# Valet config file
+.valetphprc
 # Visual Studio Code
 .vscode/
 
