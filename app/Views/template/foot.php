@@ -7,7 +7,7 @@
 <footer class="sticky-footer bg-white">
   <div class="container my-auto">
     <div class="copyright text-center my-auto">
-      <span>Copyright &copy; Your Website 2021</span>
+      <i>Copyleft of <span class="copyleft" style="display:inline-block; transform: rotate(180deg);">&copy;</span> KAnggara75 </i>| <?= date(' M Y'); ?>
     </div>
   </div>
 </footer>
